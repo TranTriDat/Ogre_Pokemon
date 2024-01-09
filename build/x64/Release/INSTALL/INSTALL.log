@@ -1,0 +1,159 @@
+﻿  1>
+  -- Install configuration: "Release"
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials/audio
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials/audio/intro.wav
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials/scripts
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials/scripts/Ogre.material
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials/textures
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials/textures/GreenSkin.jpg
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials/textures/spheremap.png
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/materials/textures/tusk.jpg
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/models
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/models/ogrehead.mesh
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/packs
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/packs/Blastoise.zip
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/packs/Cave.zip
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/packs/Forest.zip
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/packs/SdkTrays.zip
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/packs/Squirtle.zip
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/.//Media/packs/Wartortle.zip
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/plugins.cfg
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/resources.cfg
+  CMake Warning (dev) at cmake_install.cmake:55 (file):
+    Syntax error in cmake code at
+  
+      E:/Blender/test1/finalproject/build/cmake_install.cmake:56
+  
+    when parsing string
+  
+      C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64/bin/OgreMain.dll
+  
+    Invalid escape sequence \P
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at cmake_install.cmake:55 (file):
+    Syntax error in cmake code at
+  
+      E:/Blender/test1/finalproject/build/cmake_install.cmake:57
+  
+    when parsing string
+  
+      C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64/bin/OgreBites.dll
+  
+    Invalid escape sequence \P
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/OgreMain.dll
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at cmake_install.cmake:55 (file):
+    Syntax error in cmake code at
+  
+      E:/Blender/test1/finalproject/build/cmake_install.cmake:58
+  
+    when parsing string
+  
+      C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64/bin/OgreRTShaderSystem.dll
+  
+    Invalid escape sequence \P
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at cmake_install.cmake:55 (file):
+    Syntax error in cmake code at
+  
+      E:/Blender/test1/finalproject/build/cmake_install.cmake:59
+  
+    when parsing string
+  
+      C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64/bin/RenderSystem_GL.dll
+  
+    Invalid escape sequence \P
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/OgreBites.dll
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/OgreRTShaderSystem.dll
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/RenderSystem_GL.dll
+    command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at cmake_install.cmake:55 (file):
+    Syntax error in cmake code at
+  
+      E:/Blender/test1/finalproject/build/cmake_install.cmake:60
+  
+    when parsing string
+  
+      C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64/bin/Codec_STBI.dll
+  
+    Invalid escape sequence \P
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at cmake_install.cmake:55 (file):
+    Syntax error in cmake code at
+  
+      E:/Blender/test1/finalproject/build/cmake_install.cmake:61
+  
+    when parsing string
+  
+      C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64/bin/OgreOverlay.dll
+  
+    Invalid escape sequence \P
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/Codec_STBI.dll
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/OgreOverlay.dll
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at cmake_install.cmake:55 (file):
+    Syntax error in cmake code at
+  
+      E:/Blender/test1/finalproject/build/cmake_install.cmake:62
+  
+    when parsing string
+  
+      C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64/bin/zlib.dll
+  
+    Invalid escape sequence \P
+  
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) at cmake_install.cmake:55 (file):
+    Syntax error in cmake code at
+  
+      E:/Blender/test1/finalproject/build/cmake_install.cmake:63
+  
+    when parsing string
+  
+      C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64/bin/SDL2.dll
+  
+    Invalid escape sequence \P
+  
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/zlib.dll
+  -- Up-to-date: E:/Blender/test1/finalproject/build/dist/bin/SDL2.dll
+    Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+    "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+    command to set the policy and suppress this warning.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  

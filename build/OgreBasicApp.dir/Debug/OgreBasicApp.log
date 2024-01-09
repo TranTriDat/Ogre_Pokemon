@@ -1,0 +1,4 @@
+﻿  TutorialApplication.cpp
+E:\Blender\test1\finalproject\src\TutorialApplication.cpp(204,79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  OgreBasicApp.vcxproj -> E:\Blender\test1\finalproject\build\Debug\OgreBasicApp_d.exe
+          1 file(s) copied.

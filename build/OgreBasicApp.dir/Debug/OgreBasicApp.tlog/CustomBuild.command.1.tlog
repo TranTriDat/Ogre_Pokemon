@@ -1,0 +1,10 @@
+^E:\BLENDER\TEST1\FINALPROJECT\SRC\CMAKELISTS.TXT
+setlocal
+E:\CMake\bin\cmake.exe -SE:/Blender/test1/finalproject/src -BE:/Blender/test1/finalproject/build --check-stamp-file E:/Blender/test1/finalproject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

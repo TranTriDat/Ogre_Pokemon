@@ -1,0 +1,5 @@
+﻿  TutorialApplication.cpp
+  C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE\OgreVector3.h is deprecated, migrate to Ogre.h
+E:\Blender\test1\finalproject\src\TutorialApplication.cpp(496,79): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  OgreBasicApp.vcxproj -> E:\Blender\test1\finalproject\build\Release\OgreBasicApp.exe
+          1 file(s) copied.

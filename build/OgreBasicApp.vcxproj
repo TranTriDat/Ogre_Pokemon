@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{57EB31C3-F1E4-3A60-81CC-2DE5E01D3173}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>OgreBasicApp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Blender\test1\finalproject\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OgreBasicApp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OgreBasicApp_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Blender\test1\finalproject\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OgreBasicApp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OgreBasicApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Blender\test1\finalproject\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OgreBasicApp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OgreBasicApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Blender\test1\finalproject\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OgreBasicApp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OgreBasicApp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LibraryPath>E:\OpenAL-Soft\openal-soft-master\build\Release;E:\Alut\freealut-master\build\src\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\OpenAL-Soft\openal-soft-master\include\AL;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <LibraryPath>E:\OpenAL-Soft\openal-soft-master\build\Release;E:\Alut\freealut-master\build\src\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\OpenAL-Soft\openal-soft-master\include\AL;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LibraryPath>E:\OpenAL-Soft\openal-soft-master\build\Release;E:\Alut\freealut-master\build\src\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\OpenAL-Soft\openal-soft-master\include\AL;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <LibraryPath>E:\OpenAL-Soft\openal-soft-master\build\Release;E:\Alut\freealut-master\build\src\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\OpenAL-Soft\openal-soft-master\include\AL;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Bites" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Overlay" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/RTShaderSystem" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Bullet" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/bullet" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/MeshLodGenerator" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Paging" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Property" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Terrain" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Volume"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bites;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Overlay;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\RTShaderSystem;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\MeshLodGenerator;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Paging;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Property;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Terrain;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bites;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Overlay;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\RTShaderSystem;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\MeshLodGenerator;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Paging;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Property;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Terrain;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+if not exist .\dist\bin mkdir .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy "$(TargetPath)" .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreBites.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreBullet.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreMeshLodGenerator.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreOverlay.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreProperty.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreTerrain.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreVolume.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreRTShaderSystem.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgrePaging.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;OpenAL32.lib;alut.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Blender/test1/finalproject/build/Debug/OgreBasicApp_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Blender/test1/finalproject/build/Debug/OgreBasicApp_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Bites" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Overlay" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/RTShaderSystem" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Bullet" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/bullet" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/MeshLodGenerator" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Paging" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Property" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Terrain" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Volume"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bites;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Overlay;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\RTShaderSystem;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\MeshLodGenerator;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Paging;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Property;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Terrain;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bites;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Overlay;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\RTShaderSystem;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\MeshLodGenerator;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Paging;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Property;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Terrain;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+if not exist .\dist\bin mkdir .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy "$(TargetPath)" .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreBites.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreBullet.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreMeshLodGenerator.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreOverlay.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreProperty.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreTerrain.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreVolume.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreRTShaderSystem.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgrePaging.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;OpenAL32.lib;alut.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Blender/test1/finalproject/build/Release/OgreBasicApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Blender/test1/finalproject/build/Release/OgreBasicApp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Bites" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Overlay" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/RTShaderSystem" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Bullet" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/bullet" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/MeshLodGenerator" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Paging" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Property" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Terrain" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Volume"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bites;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Overlay;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\RTShaderSystem;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\MeshLodGenerator;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Paging;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Property;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Terrain;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bites;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Overlay;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\RTShaderSystem;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\MeshLodGenerator;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Paging;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Property;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Terrain;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+if not exist .\dist\bin mkdir .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy "$(TargetPath)" .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreBites.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreBullet.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreMeshLodGenerator.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreOverlay.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreProperty.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreTerrain.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreVolume.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreRTShaderSystem.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgrePaging.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;OpenAL32.lib;alut.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Blender/test1/finalproject/build/MinSizeRel/OgreBasicApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Blender/test1/finalproject/build/MinSizeRel/OgreBasicApp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Bites" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Overlay" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/RTShaderSystem" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Bullet" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/bullet" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/MeshLodGenerator" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Paging" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Property" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Terrain" /external:I "C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/include/OGRE/Volume"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bites;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Overlay;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\RTShaderSystem;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\MeshLodGenerator;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Paging;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Property;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Terrain;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bites;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Overlay;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\RTShaderSystem;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\bullet;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\MeshLodGenerator;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Paging;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Property;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Terrain;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\include\OGRE\Volume;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+if not exist .\dist\bin mkdir .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy "$(TargetPath)" .\dist\bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreBites.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreBullet.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreMeshLodGenerator.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreOverlay.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreProperty.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreTerrain.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreVolume.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreRTShaderSystem.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgrePaging.lib;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\lib\OgreMain.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;OpenAL32.lib;alut.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Blender/test1/finalproject/build/RelWithDebInfo/OgreBasicApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Blender/test1/finalproject/build/RelWithDebInfo/OgreBasicApp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Blender\test1\finalproject\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Blender/test1/finalproject/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMake\bin\cmake.exe -SE:/Blender/test1/finalproject/src -BE:/Blender/test1/finalproject/build --check-stamp-file E:/Blender/test1/finalproject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OGREConfig.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OGREConfigVersion.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OgreTargets-relwithdebinfo.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OgreTargets.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeCCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeCXXCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeRCCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Blender\test1\finalproject\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Blender/test1/finalproject/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMake\bin\cmake.exe -SE:/Blender/test1/finalproject/src -BE:/Blender/test1/finalproject/build --check-stamp-file E:/Blender/test1/finalproject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OGREConfig.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OGREConfigVersion.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OgreTargets-relwithdebinfo.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OgreTargets.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeCCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeCXXCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeRCCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Blender\test1\finalproject\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Blender/test1/finalproject/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMake\bin\cmake.exe -SE:/Blender/test1/finalproject/src -BE:/Blender/test1/finalproject/build --check-stamp-file E:/Blender/test1/finalproject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OGREConfig.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OGREConfigVersion.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OgreTargets-relwithdebinfo.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OgreTargets.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeCCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeCXXCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeRCCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Blender\test1\finalproject\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Blender/test1/finalproject/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMake\bin\cmake.exe -SE:/Blender/test1/finalproject/src -BE:/Blender/test1/finalproject/build --check-stamp-file E:/Blender/test1/finalproject/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OGREConfig.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OGREConfigVersion.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OgreTargets-relwithdebinfo.cmake;C:\Program Files\ogre-sdk-v13.6.5-msvc141-x64\CMake\OgreTargets.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeCCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeCXXCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeRCCompiler.cmake;E:\Blender\test1\finalproject\build\CMakeFiles\3.27.6\CMakeSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Blender\test1\finalproject\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Blender\test1\finalproject\src\BaseApplication.cpp" />
+    <ClInclude Include="E:\Blender\test1\finalproject\src\BaseApplication.h" />
+    <ClCompile Include="E:\Blender\test1\finalproject\src\TutorialApplication.cpp" />
+    <ClInclude Include="E:\Blender\test1\finalproject\src\TutorialApplication.h" />
+    <ClInclude Include="E:\Blender\test1\finalproject\src\SoundManager.h" />
+    <ClCompile Include="E:\Blender\test1\finalproject\src\SoundManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Blender\test1\finalproject\build\ZERO_CHECK.vcxproj">
+      <Project>{4BBDEEEC-ED35-3410-885A-5369F7176D6B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

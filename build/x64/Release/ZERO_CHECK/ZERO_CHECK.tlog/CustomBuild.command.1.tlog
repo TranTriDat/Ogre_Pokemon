@@ -1,0 +1,10 @@
+^E:\BLENDER\TEST1\FINALPROJECT\BUILD\CMAKEFILES\52CB2BC6CDB87DCB563F367293DCDD22\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe -SE:/Blender/test1/finalproject/src -BE:/Blender/test1/finalproject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Blender/test1/finalproject/build/OgreBasicApp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

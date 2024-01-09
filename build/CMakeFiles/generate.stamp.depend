@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/CMake/OGREConfig.cmake
+C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/CMake/OGREConfigVersion.cmake
+C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/CMake/OgreTargets-relwithdebinfo.cmake
+C:/Program Files/ogre-sdk-v13.6.5-msvc141-x64/CMake/OgreTargets.cmake
+E:/Blender/test1/finalproject/build/CMakeFiles/3.27.6/CMakeCCompiler.cmake
+E:/Blender/test1/finalproject/build/CMakeFiles/3.27.6/CMakeCXXCompiler.cmake
+E:/Blender/test1/finalproject/build/CMakeFiles/3.27.6/CMakeRCCompiler.cmake
+E:/Blender/test1/finalproject/build/CMakeFiles/3.27.6/CMakeSystem.cmake
+E:/Blender/test1/finalproject/src/CMakeLists.txt
+E:/CMake/share/cmake-3.27/Modules/CMakeCInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+E:/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+E:/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+E:/CMake/share/cmake-3.27/Modules/Compiler/MSVC-C.cmake
+E:/CMake/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake
+E:/CMake/share/cmake-3.27/Modules/Compiler/MSVC.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-C.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake
+E:/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake

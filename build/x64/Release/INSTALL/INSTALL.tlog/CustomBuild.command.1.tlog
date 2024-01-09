@@ -1,0 +1,10 @@
+^E:\BLENDER\TEST1\FINALPROJECT\BUILD\CMAKEFILES\52CB2BC6CDB87DCB563F367293DCDD22\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

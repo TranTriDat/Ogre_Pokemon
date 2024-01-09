@@ -1,0 +1,4 @@
+E:/Blender/test1/finalproject/build/CMakeFiles/OgreBasicApp.dir
+E:/Blender/test1/finalproject/build/CMakeFiles/INSTALL.dir
+E:/Blender/test1/finalproject/build/CMakeFiles/ALL_BUILD.dir
+E:/Blender/test1/finalproject/build/CMakeFiles/ZERO_CHECK.dir
